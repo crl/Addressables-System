@@ -15,9 +15,9 @@ MonoBehaviour:
   m_DefaultGroup: ef6a61470d55c964688ce920b302c1b9
   m_BuildRemoteCatalog: 0
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 41fc7579702fb8d4db86a436b3e611fb
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: d892e21406ca6104b86779f6ac6d4d2c
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 99b09de996cb40342aafe7b45dbc9c80, type: 2}
@@ -79,4 +79,5 @@ MonoBehaviour:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
-    m_RegisteredServiceTypeRefs: []
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor

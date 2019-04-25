@@ -53,36 +53,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetsBundleBuildParametersTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetSettingsTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetTestBase.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetUtilityTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\AnalyzeRules\CheckDupeDependencyTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\AssetGroupTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptFastTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptPackedPlayTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptPackedTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptVirtualTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\DataBuilderInputTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\BuiltinSceneCacheTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\ContentCatalogTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\ContentUpdateTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\CustomTestSchema.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\CustomTestSchemaSubClass.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Diagnostics\SegmentIteration.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\EditorPlatformMappingServiceTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\GroupSchemaTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\AbstractTestHostingService.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\HostingServiceInterfaceTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\HostingServicesManagerTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\HttpHostingServiceTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\TestHostingService.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\KeyDataStoreTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\PlatformSwitchingTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\ProfileSettingsTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\ProfileValueReferenceTests.cs" />
-     <None Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Editor\Unity.Addressables.Editor.Tests.asmdef" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetsBundleBuildParametersTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetSettingsTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetTestBase.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\AddressableAssetUtilityTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\AnalyzeRules\CheckDupeDependencyTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\AssetGroupTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptFastTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptPackedPlayTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptPackedTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\BuildScriptVirtualTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Build\DataBuilderInputTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\BuiltinSceneCacheTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\ContentCatalogTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\ContentUpdateTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\CustomTestSchema.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\CustomTestSchemaSubClass.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Diagnostics\SegmentIteration.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\EditorPlatformMappingServiceTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\GroupSchemaTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\AbstractTestHostingService.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\HostingServiceInterfaceTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\HostingServicesManagerTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\HttpHostingServiceTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\HostingServices\TestHostingService.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\KeyDataStoreTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\PlatformSwitchingTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\ProfileSettingsTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\ProfileValueReferenceTests.cs" />
+     <None Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Editor\Unity.Addressables.Editor.Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>E:/github/Addressables-System/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>

@@ -53,10 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\ByteArrayStream.cs" />
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\TestDownloadItem.cs" />
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\Tests.cs" />
-     <None Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\Unity.CacheServer.Client.EditorTests.asmdef" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\ByteArrayStream.cs" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\TestDownloadItem.cs" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\Tests.cs" />
+     <None Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Tests\Editor\Unity.CacheServer.Client.EditorTests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>E:/github/Addressables-System/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>

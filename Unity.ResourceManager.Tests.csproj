@@ -53,18 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\Operations\BaseOperationBehaviorTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\Operations\ProviderOperationTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerBaseTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerFastModeTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerLegacyModeTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerPackedModeTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerUtilityTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerVirtualModeTests.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\TestUtil\MockProvider.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\VirtualAssetBundleProviderTests.cs" />
-     <None Include="Assets\src\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\Unity.ResourceManager.Tests.asmdef" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\Operations\BaseOperationBehaviorTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\Operations\ProviderOperationTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerBaseTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerFastModeTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerLegacyModeTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerPackedModeTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerUtilityTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\ResourceManagerVirtualModeTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\TestUtil\MockProvider.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\VirtualAssetBundleProviderTests.cs" />
+     <None Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Tests\Runtime\ResourceManager\Unity.ResourceManager.Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>E:/github/Addressables-System/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>

@@ -53,13 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Editor\CacheServerUploader.cs" />
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Editor\CacheServerUploaderWindow.cs" />
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Editor\Client.cs" />
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Editor\FileDownloadItem.cs" />
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Editor\IDownloadItem.cs" />
-     <Compile Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Editor\Util.cs" />
-     <None Include="Assets\src\com.unity.cacheserver.client@0.1.1-preview\Editor\Unity.CacheServer.Client.Editor.asmdef" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Editor\CacheServerUploader.cs" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Editor\CacheServerUploaderWindow.cs" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Editor\Client.cs" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Editor\FileDownloadItem.cs" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Editor\IDownloadItem.cs" />
+     <Compile Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Editor\Util.cs" />
+     <None Include="Assets\Dll\com.unity.cacheserver.client@0.1.1-preview\Editor\Unity.CacheServer.Client.Editor.asmdef" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>E:/github/Addressables-System/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>

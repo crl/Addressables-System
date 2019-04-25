@@ -53,9 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Runtime\CompatibilityAssetBundleManifest.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Runtime\Shared\BundleDetails.cs" />
-     <None Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Runtime\Unity.ScriptableBuildPipeline.asmdef" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Runtime\CompatibilityAssetBundleManifest.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Runtime\Shared\BundleDetails.cs" />
+     <None Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Runtime\Unity.ScriptableBuildPipeline.asmdef" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>F:/Program Files/Unity 2019.2.0a13/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>

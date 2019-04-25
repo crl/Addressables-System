@@ -53,16 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\BuildCacheTestBase.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\CacheServerBuildCacheTests.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\ContextInjectionTests.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\ContextObjectSerializationTests.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\FileCompressorTests.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\HashingMethodsTests.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\LocalBuildCacheTests.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\LocalCacheServer.cs" />
-     <Compile Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\ScriptableBuildPipelineTests.cs" />
-     <None Include="Assets\src\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\Unity.ScriptableBuildPipeline.Editor.Tests.asmdef" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\BuildCacheTestBase.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\CacheServerBuildCacheTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\ContextInjectionTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\ContextObjectSerializationTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\FileCompressorTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\HashingMethodsTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\LocalBuildCacheTests.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\LocalCacheServer.cs" />
+     <Compile Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\ScriptableBuildPipelineTests.cs" />
+     <None Include="Assets\Dll\com.unity.scriptablebuildpipeline@1.4.1-preview\Tests\Editor\Unity.ScriptableBuildPipeline.Editor.Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>E:/github/Addressables-System/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>

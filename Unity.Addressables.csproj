@@ -53,25 +53,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Addressables.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\AddressablesImpl.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\AssetLabelReference.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\AssetReference.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\IKeyEvaluator.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Initialization\AddressablesRuntimeProperties.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Initialization\CacheInitialization.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Initialization\InitializationOperation.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Initialization\ResourceManagerRuntimeData.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\ContentCatalogData.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\IResourceLocator.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\LegacyResourcesLocator.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\ResourceLocationData.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\ResourceLocationMap.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\ResourceProviders\ContentCatalogProvider.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Services\PlatformMappingService.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Utility\ResourceManagerEventCollector.cs" />
-     <Compile Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Utility\SerializationUtilities.cs" />
-     <None Include="Assets\src\com.unity.addressables@0.7.4-preview\Runtime\Unity.Addressables.asmdef" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Addressables.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\AddressablesImpl.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\AssetLabelReference.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\AssetReference.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\IKeyEvaluator.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Initialization\AddressablesRuntimeProperties.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Initialization\CacheInitialization.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Initialization\InitializationOperation.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Initialization\ResourceManagerRuntimeData.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\ContentCatalogData.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\IResourceLocator.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\LegacyResourcesLocator.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\ResourceLocationData.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\ResourceLocators\ResourceLocationMap.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\ResourceProviders\ContentCatalogProvider.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Services\PlatformMappingService.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Utility\ResourceManagerEventCollector.cs" />
+     <Compile Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Utility\SerializationUtilities.cs" />
+     <None Include="Assets\Dll\com.unity.addressables@0.7.4-preview\Runtime\Unity.Addressables.asmdef" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>F:/Program Files/Unity 2019.2.0a13/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
