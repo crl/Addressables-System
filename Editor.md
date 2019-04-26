@@ -6,7 +6,7 @@
 4. CustomEditor 定义类的Inspector
 
 
-#GUI 有点乱的地方
+# GUI 有点乱的地方
 1. EditorGUI
     1. EditorGUI.BeginChangeCheck
     2. EditorGUI.indentLevel
