@@ -12,7 +12,7 @@ namespace UnityEngine.AddressableAssets
         /// <summary>
         /// The runtime key to use.
         /// </summary>
-        object RuntimeKey { get; }
+        string RuntimeKey { get; }
 
         /// <summary>
         /// Checks if the current RuntimeKey is valid.

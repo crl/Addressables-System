@@ -23,7 +23,7 @@ namespace UnityEngine.AddressableAssets
         /// <summary>
         /// The runtime key used for indexing values in the Addressables system.
         /// </summary>
-        public object RuntimeKey
+        public string RuntimeKey
         {
             get { return labelString; }
         }

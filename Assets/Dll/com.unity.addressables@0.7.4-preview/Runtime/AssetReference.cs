@@ -126,7 +126,7 @@ namespace UnityEngine.AddressableAssets
         /// <summary>
         /// The actual key used to request the asset at runtime. RuntimeKeyIsValid() can be used to determine if this reference was set.
         /// </summary>
-        public object RuntimeKey
+        public string RuntimeKey
         {
             get { return m_AssetGUID; }
         }

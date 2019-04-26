@@ -394,27 +394,27 @@ namespace UnityEngine.ResourceManagement
         /// <returns>An async operation that will complete when all individual async load operations are complete.</returns>
         /// <param name="locations">locations to load.</param>
         /// <param name="callback">This callback will be invoked once for each object that is loaded.</param>
-        /// <typeparam name="TObject">Object type to load.</typeparam>
-        public AsyncOperationHandle<IList<TObject>> ProvideResources<TObject>(IList<IResourceLocation> locations, Action<TObject> callback=null)
+        /// <typeparam name="T">Object type to load.</typeparam>
+        public AsyncOperationHandle<IList<T>> ProvideResources<T>(IList<IResourceLocation> locations, Action<T> callback=null)
         {
             if (locations == null)
-                return CreateCompletedOperation<IList<TObject>>(null, "Null Location");
+                return CreateCompletedOperation<IList<T>>(null, "Null Location");
 
             Action<AsyncOperationHandle> callbackGeneric = null;
             if(callback != null)
             {
-                callbackGeneric = (x) => callback((TObject)(x.Result));
+                callbackGeneric = (x) => callback((T)(x.Result));
             }
-            var typelessHandle = ProvideResourceGroupCached(locations, CalculateLocationsHash(locations, typeof(TObject)), typeof(TObject), callbackGeneric);
+            var typelessHandle = ProvideResourceGroupCached(locations, CalculateLocationsHash(locations, typeof(T)), typeof(T), callbackGeneric);
             var chainOp = CreateChainOperation(typelessHandle, (x) =>
                {
                    if(x.Status != AsyncOperationStatus.Succeeded)
-                       return CreateCompletedOperation<IList<TObject>>(null, x.OperationException != null ? x.OperationException.Message : "ProvidResources failed");
+                       return CreateCompletedOperation<IList<T>>(null, x.OperationException != null ? x.OperationException.Message : "ProvidResources failed");
 
-                   var list = new List<TObject>();
+                   var list = new List<T>();
                    foreach(var r in x.Result)
-                       list.Add(r.Convert<TObject>().Result);
-                   return CreateCompletedOperation<IList<TObject>>(list, string.Empty);
+                       list.Add(r.Convert<T>().Result);
+                   return CreateCompletedOperation<IList<T>>(list, string.Empty);
                });
             // chain operation holds the dependency
             typelessHandle.Release();
@@ -424,27 +424,27 @@ namespace UnityEngine.ResourceManagement
         /// <summary>
         /// Create a chain operation to handle dependencies.
         /// </summary>
-        /// <typeparam name="TObject">The type of operation handle to return.</typeparam>
-        /// <typeparam name="TObjectDependency">The type of the dependency operation.</typeparam>
+        /// <typeparam name="T">The type of operation handle to return.</typeparam>
+        /// <typeparam name="TDependency">The type of the dependency operation.</typeparam>
         /// <param name="dependentOp">The dependency operation.</param>
         /// <param name="callback">The callback method that will create the dependent operation from the dependency operation.</param>
         /// <returns>The operation handle.</returns>
-        public AsyncOperationHandle<TObject> CreateChainOperation<TObject, TObjectDependency>(AsyncOperationHandle<TObjectDependency> dependentOp, Func<AsyncOperationHandle<TObjectDependency>, AsyncOperationHandle<TObject>> callback)
+        public AsyncOperationHandle<T> CreateChainOperation<T, TDependency>(AsyncOperationHandle<TDependency> dependentOp, Func<AsyncOperationHandle<TDependency>, AsyncOperationHandle<T>> callback)
         {
-            var op = CreateOperation<ChainOperation<TObject, TObjectDependency>>(typeof(ChainOperation<TObject, TObjectDependency>), typeof(ChainOperation<TObject, TObjectDependency>).GetHashCode(), 0, null);
+            var op = CreateOperation<ChainOperation<T, TDependency>>(typeof(ChainOperation<T, TDependency>), typeof(ChainOperation<T, TDependency>).GetHashCode(), 0, null);
             op.Init(dependentOp, callback);
             return StartOperation(op, dependentOp);
         }
         /// <summary>
         /// Create a chain operation to handle dependencies.
         /// </summary>
-        /// <typeparam name="TObject">The type of operation handle to return.</typeparam>
+        /// <typeparam name="T">The type of operation handle to return.</typeparam>
         /// <param name="dependentOp">The dependency operation.</param>
         /// <param name="callback">The callback method that will create the dependent operation from the dependency operation.</param>
         /// <returns>The operation handle.</returns>
-        public AsyncOperationHandle<TObject> CreateChainOperation<TObject>(AsyncOperationHandle dependentOp, Func<AsyncOperationHandle, AsyncOperationHandle<TObject>> callback)
+        public AsyncOperationHandle<T> CreateChainOperation<T>(AsyncOperationHandle dependentOp, Func<AsyncOperationHandle, AsyncOperationHandle<T>> callback)
         {
-            var cOp = new ChainOperationTypelessDepedency<TObject>();
+            var cOp = new ChainOperationTypelessDepedency<T>();
             cOp.Init(dependentOp, callback);
             return StartOperation(cOp, dependentOp);
         }
